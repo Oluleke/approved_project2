@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mnu_main"
+        android:title="Sort Movie List"
+        android:orderInCategory="1">
+        <item android:title="Sort By Popularity"
+            android:id="@+id/pop_popularity" />
+        <item android:title="Sort By Ratings"
+            android:id="@+id/pop_ratings" />
+        <item android:title="Display Favorites"
+            android:id="@+id/mnu_favorites" />
+    </item>
+</menu>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MovieDB App</string>
+    <string name="connection_errmsg">Internet Connection Required</string>
+    <string name="clickMessage">You Clicked on : </string>
+    <string name="image_base_url">http://image.tmdb.org/t/p/</string>
+    <string name="image_base_dimen">w185</string>
+    <string name="sort_popular">popular</string>
+    <string name="sort_top_rated">top_rated</string>
+    <string name="release_date">Date of Release : </string>
+    <string name="vote_average">Average Vote : </string>
+    <string name="api_key">f5b862ff0f14bf7953cb83e00709da97</string>
+    <string name="preference_file_key">popular</string>
+    <string name="imageDesc">Movie Image</string>
+    <string name="base_url">"https://api.themoviedb.org/3/movie/"</string>
+    <string name="spinner_reviews">Reviews</string>
+    <string name="spinner_trailer_list">Trailer List</string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+</resources>

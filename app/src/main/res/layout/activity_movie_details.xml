@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:id="@+id/tv_movie_title"
+        android:textSize="25sp"
+        android:padding="10dp"/>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+            android:padding="@dimen/general_padding"
+        android:id="@+id/iv_movie"
+            android:textStyle="bold"
+            android:contentDescription="@string/imageDesc"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_release_date"
+                android:textSize="@dimen/text_size_small"
+                android:padding="@dimen/general_padding"
+                />
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_vote_average"
+            android:textSize="@dimen/text_size_small"
+            android:padding="@dimen/general_padding"
+            />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_favorite"
+            android:text="Favorite"
+            android:onClick="addToFavorites"
+            android:textSize="@dimen/text_size_small"
+            android:padding="@dimen/general_padding"
+            />
+
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/btn_favorite"-->
+                <!--android:text="Favorite"-->
+                <!--android:textSize="@dimen/text_size_small"-->
+                <!--android:padding="@dimen/general_padding"-->
+                <!--/>-->
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_overview"
+        android:textSize="20sp"
+        android:textAlignment="gravity"
+        android:padding="10dp"
+        />
+
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/tv_review_dummies"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textAlignment="gravity"-->
+        <!--android:padding="10dp"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/tv_trailer_dummies"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textAlignment="gravity"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:padding="10dp"-->
+        <!--/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_review_dummies"
+        android:textSize="20sp"
+        android:textAlignment="gravity"
+        android:padding="10dp"
+        android:text="Reviews"
+        android:background="@color/colorAccent"
+        />
+        <Spinner
+            android:id="@+id/spinner_review"
+            android:layout_width = "fill_parent"
+            android:layout_height="40dp"
+            android:prompt="@string/spinner_reviews" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_trailer_dummies"
+        android:textSize="20sp"
+        android:textAlignment="gravity"
+        android:padding="10dp"
+        android:text="Trailer List"
+          />
+        <Spinner
+            android:id="@+id/spinner_trailerlist"
+            android:layout_width = "fill_parent"
+            android:layout_height="40dp"
+            android:prompt="@string/spinner_trailer_list" />
+
+
+
+        
+    </LinearLayout>
+
+   
+
+
+
+</ScrollView>
